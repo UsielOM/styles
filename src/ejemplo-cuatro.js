@@ -9,7 +9,7 @@ export class EjemploCuatro extends LitElement {
             padding: 8px;
         }
         :host(.blue) {
-            background-color: aliceblue: aliceblue;
+            background-color: aliceblue;
             color: darkgreen;
         }
         `
