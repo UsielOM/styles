@@ -13,7 +13,6 @@ export class EjemploUno extends LitElement {
     render() {
         return html `
         <p>soy verde</p>
-        <h1>Hola mundo </h1>
         `;
     }
 }
