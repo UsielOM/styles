@@ -7,6 +7,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="./src/index.js" type="module"></script>
     <title>Document</title>
+
+    <style>
+        html {
+            --theme-primary: green;
+            --theme-secondary: aliceblue;
+            --theme-warning: red;
+            --theme-font-family: Roboto;
+        }
+        
+        ejemplo-siete {
+            --my-element-text-color: var(--theme-primary);
+            --my-element-background-color: var(--theme-secondary);
+            --my-element-font-family: var(--my-element-font-family);
+        }
+        
+        .warning {
+            --my-element-text-color: var(--theme-warning);
+        }
+    </style>
 </head>
 
 <body>
@@ -29,6 +48,12 @@
     <br>
 
     <ejemplo-seis></ejemplo-seis>
+
+    <br>
+
+    <ejemplo-siete></ejemplo-siete>
+    <ejemplo-siete class="warning"></ejemplo-siete>
+
 </body>
 
 </html>

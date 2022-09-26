@@ -4,3 +4,4 @@ import './ejemplo-treshijo';
 import './ejemplo-cuatro';
 import './ejemplo-cinco';
 import './ejemplo-seis';
+import './ejemplo-siete';
