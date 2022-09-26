@@ -1,1 +1,1 @@
-import './ejemplo1';
+import './ejemplo-uno';
